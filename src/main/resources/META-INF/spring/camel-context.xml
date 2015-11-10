@@ -30,7 +30,7 @@
          routing on the messages using XPath. 
   -->
   <camelContext xmlns="http://camel.apache.org/schema/spring">
-    <route>
+    <route autoStartup="true">
       <from uri="file:src/data?noop=true"/>
       <to uri="activemq:personnel.records"/>
     </route>
