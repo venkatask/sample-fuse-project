@@ -38,7 +38,7 @@
       <from uri="activemq:personnel.records"/>
       <choice>
         <when>
-          <xpath>/person/city = 'London'</xpath>
+          <xpath>/person/city = 'Toronto'</xpath>
           <to uri="file:target/messages/uk"/>
         </when>
         <otherwise>
