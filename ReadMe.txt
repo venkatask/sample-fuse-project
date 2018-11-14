@@ -14,3 +14,8 @@ To run this project use the following Maven goal
 For more help see the Apache Camel documentation
 
     http://camel.apache.org/
+
+
+<a href="https://heroku.com/deploy">
+  <img src="https://www.herokucdn.com/deploy/button.svg" alt="Deploy">
+</a>
